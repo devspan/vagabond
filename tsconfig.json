@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "paths": {
+      "~/*": ["./src"],
+      "@/*": ["./*"]
+    },
+    "allowJs": true,
+    "noEmit": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.spec.ts",
+    "src/components/modal/modal.js",
+    "src/components/notifications/index.js", 
+    "src/modules/about/locales/index.js",
+    "src/modules/account/components/mixin.js"
+  ]
+}
