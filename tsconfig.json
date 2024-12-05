@@ -12,7 +12,7 @@
     "lib": ["esnext", "dom"],
     "paths": {
       "~/*": ["./src"],
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     },
     "allowJs": true,
     "noEmit": true,
