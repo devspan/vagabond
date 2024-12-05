@@ -201,7 +201,7 @@ export default {
     },
     defaultPair: {
       type: String,
-      required: false,
+      default: "BTC-USDT",
     },
   },
   emits: ["setCurPair"],

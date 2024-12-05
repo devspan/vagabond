@@ -1,10 +1,11 @@
 <template>
-  <div class="card">
-    <slot />
+  <div class="v-card">
+    <slot></slot>
   </div>
 </template>
-<style lang="scss" scoped>
-.card {
-  @apply shadow-default;
+
+<style scoped lang="scss">
+.v-card {
+  @apply bg-white rounded-lg shadow-card;
 }
 </style>
